@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="trial.css">
+    <link href="favicon.ico" rel="icon">
+    <title>Enrolment form</title>
+    <script>
+    
+       function button(){
+           alert("Your response has been received!");
+       }
+       
+    </script>
+    
+</head>
+
+<body class="">
+    
+<section>
+       
+            <div class="form-box">
+                <div class="form-value">
+     <form action="">
+        <h2>Course Enrolment Form</h2>
+        <div class="inputbox">
+        <label for="fname"><strong>First Name</strong></label><br>
+        <input type="text" placeholder="First Name" name="fname" id="fname" width="100px" value="" required><br><br>
+        </div>
+
+        <div class="inputbox">
+     <label for="fname"><strong>Second Name</strong></label><br>
+        <input type="text" placeholder="Second Name"name="Iname" id="Iname" required><br><br>
+        </div>
+
+        <div class="inputbox">
+     <label for="email"><strong>Email</strong></label><br>
+     <input type="email" placeholder="email"name="Iname" id="Iname"><br><br>
+     </div>
+
+     <div class="inputbox">
+        <label for="email"><strong>Password</strong></label><br>
+        <input type="password" placeholder="password"name="Iname" id="Iname"><br><br>
+        </div>
+
+        <div class="inputbox">
+            <label for="email"><strong>Confirm password</strong></label><br>
+            <input type="password" placeholder="Confirm password"name="Iname" id="Iname"><br><br>
+            </div>
+
+        <div class="area">
+     <strong>Address</strong><br><textarea cols="60" maxlength="350" rows="5" placeholder="Address"></textarea><br><br>
+        </div>
+        
+        <div class="inputbox">
+        <label for="state" ><strong>State of Origin</strong></label>
+            <select name="state" id="state">
+                <option value="kano">Abia</option>
+                <option value="kano">Adamawa</option>
+                <option value="kano">Akwa Ibom</option>
+                <option value="kano">Anambra</option>
+                <option value="kano">Bauchi</option>
+                <option value="kano">Bayelsa</option>
+                <option value="kano">Benue</option>
+                <option value="kano">Borno</option>
+                <option value="kano">Cross River</option>
+                <option value="kano">Delta</option>
+                <option value="kano">Ebonyi</option>
+                <option value="FCT">Edo</option>
+                <option value="kano"> Ekiti</option>
+                <option value="kano"> Enugu</option>
+                <option value="kano"> Gombe </option>
+                <option value="kano"> Imo </option>
+                <option value="kano"> Jigawa </option>
+                <option value="kano"> Kaduna </option>
+                <option value="kano"> Kano </option>
+                <option value="kano"> Katsina </option>
+                <option value="kano"> Kebbi </option>
+                <option value="kano">Kogi </option>
+                <option value="kano"> Kwara </option>
+                <option value="kano"> Lagos</option>
+                <option value="kano"> Nasarawa</option>
+               
+                <option value="kano">Niger</option>
+                <option value="kano"> Ogun</option>
+                <option value="kano">Ondo</option>
+                <option value="kano">Osun</option>
+                <option value="kano">Oyo</option>
+                <option value="kano">Plateau</option>
+                <option value="kano">Rivers</option>
+                <option value="kano">Sokoto</option>
+                <option value="kano">Taraba</option>
+                <option value="kano">Yobe</option>
+                <option value="kano">Zamfara </option>
+                <option value="FCT">FCT</option>
+         </select><br><br>
+         </div>
+
+        <label for="state" ><strong>Gender</strong></label><br>
+        <input type="radio" name="gender"  value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="fmale">Female</label></br><br>
+
+        <div class="inputbox">
+        <label for="date"><strong>Date of Birth:</strong></label><br>
+        <input type="date" name="" id=""><br><br>
+        </div>
+        
+
+        <label for="Favourite" ><strong>Choose Course:</strong></label><br>
+        <input type="checkbox" value="Rice">
+        <label for="web">Web Design</label></br>
+        <input type="checkbox" value="Beans">
+        <label for="Beans">Graphic Design</label></br>
+        <input type="checkbox" value="Spagheti">
+        <label for="Spagheti">Web Development</label></br>
+        <input type="checkbox" value="yam">
+        <label for="yam">Data Analysis</label></br>
+        <input type="checkbox" value="yam">
+        <label for="yam">Data Science</label></br>
+        <input type="checkbox" value="yam">
+        <label for="yam">Boostrap</label></br>
+
+        <div class="inputbox">
+        <label for="other" type="text-area"><strong>Other:</strong></label>
+        <input type="text"  placeholder="Other"><br><br>
+        </div>
+          
+        <div class="inputbox">
+        <label for="state" ><strong>Level of Skill</strong></label>
+            <select name="state" id="state">
+                <option >Student</option>
+                <option >Beginner</option>
+                <option >Intermediate</option>
+                <option >Professional</option>
+                <option >Developer</option>
+            </select><br><br>
+            </div>
+
+            <div class="inputbox">
+            <label for="state" ><strong>Year of Study</strong></label>
+            <select name="state" id="state">
+                <option >1</option>
+                <option >2</option>
+                <option >3</option>
+                <option >4</option>
+                <option >5</option>
+            </select><br><br>
+            </div>
+        
+        
+        <label for="upload"><strong>Upload picture:</strong></label>
+         <input type="file" value="upload"><br><br>
+         
+
+         <button type="submit" value="submit"  onclick="button()">submit</button><br>
+         <hr>
+         <button type="reset" value="reset">reset</button>
+        </fieldset>
+   
+    
+     </form>
+     </div>
+    </div>
+     </section>
+
+</body>
+</html>
