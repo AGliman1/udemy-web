@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="trial.css">
+    <link href="favicon.ico" rel="icon">
+    <title>signup Page</title>
+    <script src="./signValidation.js" defer></script>
+    <script>
+    
+       function button(){
+           alert("You are Sign in!");
+       }
+       
+    </script>
+    
+</head>
+
+<body class="">
+    
+<section>
+       
+            <div class="form-box">
+                <div class="form-value">
+     <form id="form">
+        <h2>Sign Up</h2>
+        <div class="inputbox">
+        <label for="fname"><strong>First Name</strong></label><br>
+        <input type="text" placeholder="First Name" name="fname" id="fname" width="100px" value="" required><br><br>
+        </div>
+
+        <div class="inputbox">
+     <label for="fname"><strong>Second Name</strong></label><br>
+        <input type="text" placeholder="Second Name"name="Iname" id="Iname" required><br><br>
+        </div>
+
+        <div class="inputbox">
+     <label for="email"><strong>Email</strong></label><br>
+     <input type="email" id="email" placeholder="email"name="Iname" id="Iname"><br><br>
+     </div>
+
+     <div class="inputbox">
+        <label for="email"><strong>Password</strong></label><br>
+        <input type="password" id="password" placeholder="**********"name="Iname" id="Iname"><br><br>
+        </div>
+
+        <div class="inputbox">
+            <label for="email"><strong>Confirm password</strong></label><br>
+            <input type="password" id="cpassword" placeholder="**********"name="Iname" id="Iname"><br><br>
+            </div>
+
+      
+        
+        
+
+        <label for="state" ><strong>Gender</strong></label><br>
+        <input type="radio" name="gender" id = "gender1"  value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id = "gender2" value="Female">
+        <label for="fmale">Female</label></br><br>
+
+        <div class="inputbox">
+        <label for="date"><strong>Date of Birth:</strong></label><br>
+        <input type="date" name="" id="dob"><br><br>
+        </div>
+        
+
+          
+        <div class="inputbox">
+        <label for="state" ><strong>Level of Skill</strong></label>
+            <select name="state" id="state">
+                <option >Student</option>
+                <option >Beginner</option>
+                <option >Intermediate</option>
+                <option >Professional</option>
+                <option >Developer</option>
+            </select><br><br>
+            </div>
+
+            <div class="inputbox">
+            <label for="state" ><strong>Year of Study</strong></label>
+            <select name="state" id="year">
+                <option >1</option>
+                <option >2</option>
+                <option >3</option>
+                <option >4</option>
+                <option >5</option>
+            </select><br><br>
+            </div>
+        
+        
+         
+
+         <button  value="submit"  id="signBtn" onclick="validateSignUp()">Sign Up</button><br>
+        
+        
+        </fieldset>
+   
+    
+     </form>
+     </div>
+    </div>
+     </section>
+     <div class="bottom">
+        <a class="footer-link" href="index.html">Home</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact2.html">Contact</a>
+        <p class="copy">© 2023 Abdulsalam Gambo @ Group 4.</p>
+      </div>
+
+</body>
+</html>
